@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CapaDatos
+namespace CapaDatos.Contratos
 {
-    public class Class1
+    interface IContraro
     {
+        bool alta();
+
     }
 }
